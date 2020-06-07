@@ -4,32 +4,13 @@
 
 ## What is the internet?
 
-<iframe width="840" height="472" src="https://www.youtube.com/embed/iDbyYGrswtg" frameborder="0" allowfullscreen></iframe>
-
----
-
-- What is the internet?
-- What is the web?
-- What is a website?
-
----
-
-## Let’s take a trip to [Wikipedia](https://en.wikipedia.org/wiki/Montreal)
-
-- What happened?
-- What are the steps that lead us to seeing the content from that page?
-
----
-
-## The internet
-
 The internet is the global system of interconnected computer networks that use the Internet protocol suite to link devices worldwide.
 
 This network is connected and accessed via telephone circuits, coaxial cables, fiber optics or copper wires, Wi-Fi, satellite, and cellular telephone technology (e.g. 3G, 4G)
 
 ---
 
-## The Web
+## What is the web?
 
 - The web is an information space: set of publicly available documents hosted on computers connected to the internet
 - Access documents via their URLs (Uniform Resource Locators)
@@ -63,5 +44,3 @@ This network is connected and accessed via telephone circuits, coaxial cables, f
 - The web browser reads the HTML code and renders the content
 
 ---
-
-[Next lecture: HTML](../lecture-2-html)
