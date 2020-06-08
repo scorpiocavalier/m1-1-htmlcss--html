@@ -84,7 +84,9 @@ g) `td` -> table data element
 
 ## Q11 - What is autofilling and why is it important?
 
-    Autofilling can help speed your coding as it will finish your initial typing for you. You might have more than one option to choose from when it occurs. It can also help avoid typos, resulting in less bugs to worried about.
+    In the context of coding, autofilling can help speed your coding as it will finish your initial typing for you. You might have more than one option to choose from when it occurs. It can also help avoid typos, resulting in less bugs to worried about.
+
+    In the context of a website form, autofilling provides a better experience since it helps fill out the form with your information automatically, making it much quicker to complete.
 
 ## Q12 - Which attributes are always present in an img element?
 
