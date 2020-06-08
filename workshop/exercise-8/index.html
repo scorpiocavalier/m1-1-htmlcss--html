@@ -8,41 +8,56 @@
 <body>
     <h1>Registration form</h1>
     <form action="/">
-        <label for="username">Username</label>
-        <input type="text" id='username' required>
-        <label for="password">Password</label>
-        <input type="password" id='password' required><br>
-        <label for="email">Email</label>
-        <input type="email" id='email' required><br>
-
-        <label for="taxi">Which taxi do you require?</label><br>
-        <input type="radio" id='car' name='taxi' value='Car' required>
-        <label for="car">Car</label><br>
-        <input type="radio" id='van' name='taxi' value='Van' required>
-        <label for="van">Van</label><br>
-        <input type="radio" id='tuktuk' name='taxi' value='Tuk Tuk' required>
-        <label for="tuktuk">Tuk Tuk</label><br>
-
-        <label for="extras">Extras</label><br>
-        <input type="checkbox" id='babyseat' name='extras' value='Baby Seat'>
-        <label for="babyseat">Baby Seat</label><br>
-        <input type="checkbox" id='wheelchairaccess' name='extras' value='Wheelchair Access'>
-        <label for="wheelchairaccess">Wheelchair Access</label><br>
-        <input type="checkbox" id='stocktip' name='extras' value='Stock Tip'>
-        <label for="stocktip">Stock Tip</label><br>
-        
-        <label for="pickup">Pickup</label>
-        <select name="pickup" id="pickup">
-            <option value="Select One">Select One</option>
-            <option value="Taxi Office">Taxi Office</option>
-            <option value="Town Hall">Town Hall</option>
-            <option value="We'll Guess">We'll Guess</option>
-        </select><br>
-
-        <label for="special">Special</label>
-        <textarea name="special" id="special" cols="20" rows="3"></textarea><br>
-
-        <input type="submit" value='Submit'>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id='username' required>
+            <label for="password">Password</label>
+            <input type="password" id='password' required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id='email' required>
+        </div>
+        <div><label for="taxi">Which taxi do you require?</label></div>
+        <div>
+            <input type="radio" id='car' name='taxi' value='Car' required>
+            <label for="car">Car</label>
+        </div>
+        <div>
+            <input type="radio" id='van' name='taxi' value='Van' required>
+            <label for="van">Van</label>
+        </div>
+        <div>
+            <input type="radio" id='tuktuk' name='taxi' value='Tuk Tuk' required>
+            <label for="tuktuk">Tuk Tuk</label>
+        </div>
+        <div><label for="extras">Extras</label></div>
+        <div>
+            <input type="checkbox" id='babyseat' name='extras' value='Baby Seat'>
+            <label for="babyseat">Baby Seat</label>
+        </div>
+        <div>
+            <input type="checkbox" id='wheelchairaccess' name='extras' value='Wheelchair Access'>
+            <label for="wheelchairaccess">Wheelchair Access</label>
+        </div>
+        <div>
+            <input type="checkbox" id='stocktip' name='extras' value='Stock Tip'>
+            <label for="stocktip">Stock Tip</label>
+        </div>
+        <div>
+            <label for="pickup">Pickup</label>
+            <select name="pickup" id="pickup">
+                <option value="Select One">Select One</option>
+                <option value="Taxi Office">Taxi Office</option>
+                <option value="Town Hall">Town Hall</option>
+                <option value="We'll Guess">We'll Guess</option>
+            </select>
+        </div>
+        <div>
+            <label for="special">Special</label>
+            <textarea name="special" id="special" cols="20" rows="3"></textarea>
+        </div>
+        <div><input type="submit" value='Submit'></div>
     </form>
 </body>
 </html>
